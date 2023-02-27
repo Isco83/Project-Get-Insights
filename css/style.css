@@ -89,6 +89,79 @@ body {
 	font-family: 'inter';
 	font-weight: 600;
 	font-size: 1.5em;
+}
+
+/*************************** media queri ******/
+
+@media (min-width: 720px){
+
+.card_main{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	min-width: 1050px;
+}
+
+.txt_title{
+	padding: 4em;
+	text-align: left;
+}
+
+.txt_title h1{
+	min-width: 381px;
+	font-family: 'Inter';
+	text-align: left;
+	font-size: 1.9em;
+}
+
+.txt_title p{
+	font-family: 'Lexend Deca';
+	font-weight: 200;
+	font-size: 1.2em;
+	max-width: 720px;
+	text-align: left;
+}
+
+.img_card{
+	max-width: 1440px;
+	background-color:hsl(277, 51%, 36%);
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em ;
+}
+
+.img_card img{
+	max-width: 1440px;
+	opacity: 0.5;
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em ;
+}
+
+.txt_end{
+	text-align: center;
+	margin: auto;
+	max-width: 1440px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.txt_end ul{
+	margin: 2em;
+	list-style: none;
+	padding: 0;
+	}
+
+.txt_title p {
+	font-family: 'Lexend Deca';
+	font-weight: 200;
+	font-size: 1.2em;
+	max-width: 443px;
+	text-align: start;
+}
+
+
+
 
 }
 
