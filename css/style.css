@@ -5,7 +5,7 @@ body {
 }
 
 .container{
-	max-width: 1440px;
+	max-width: 100%;
 	background-color: rgb(10,12,27);
 	margin: 0 auto;
 }
@@ -33,6 +33,7 @@ body {
 	opacity: 0.5;
 	border-top-right-radius: 0.5em;
 	border-top-left-radius: 0.5em ;
+	
 }
 
 .txt_title{
@@ -134,22 +135,25 @@ body {
 	opacity: 0.5;
 	border-top-right-radius: 0.5em;
 	border-bottom-right-radius: 0.5em ;
+	height: 459px;
+	border-top-left-radius:0 ;
 }
 
 .txt_end{
-	text-align: center;
+	text-align: initial;
 	margin: auto;
-	max-width: 1440px;
+	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	flex-direction: row;
 }
 
 .txt_end ul{
-	margin: 2em;
+	margin-right: 3em;
 	list-style: none;
 	padding: 0;
+	margin-top: 2em;
 	}
 
 .txt_title p {
